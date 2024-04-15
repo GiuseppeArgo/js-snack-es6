@@ -4,7 +4,7 @@ Stampare a schermo la bici con peso minore utilizzando destructuring e template 
 
 1. Input 
 
-- [x] Creo un array di oggetti con proprieta nome e peso 
+- [x] Creo un array di oggetti con proprietà nome e peso 
 
 2. Logica 
 
