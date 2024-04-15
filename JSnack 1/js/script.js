@@ -25,7 +25,7 @@ let myBike = myBikeArray[0];
 
 // Scorro l'array e paragono i pesi delle bici 
 
-myBikeArray.forEach(bike => {
+myBikeArray.forEach((bike) => {
     if (bike.peso < myBike.peso) {
        myBike = bike;
        console.log(myBike);

@@ -25,7 +25,7 @@ const squadreDiCalcio = [
 
 // Assegno un valore casuale alle proprità puntiFatti e falliSubiti tramite un ciclo forEach che scorre l'array
 
-squadreDiCalcio.forEach(squadra => {
+squadreDiCalcio.forEach((squadra) => {
     squadra.puntiFatti = Math.floor(Math.random() * 21);;
     squadra.falliSubiti = Math.floor(Math.random() * 11);;
     console.log(`Nome: ${squadra.nome}`);
@@ -40,7 +40,7 @@ const newArray = squadreDiCalcio.map(({nome, falliSubiti}) => ({nome, falliSubit
 
 // Stampo il nuovo array in console tramite un ciclo forEach
 
-newArray.forEach(squadra => {
+newArray.forEach((squadra) => {
     console.log(`Nome: ${squadra.nome}`);
     console.log(`Falli subiti: ${squadra.falliSubiti}`);
     console.log('- - - - - - - - -');
