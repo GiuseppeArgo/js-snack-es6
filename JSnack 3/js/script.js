@@ -11,8 +11,19 @@ const automobili = [
     { marca: "Opel", modello: "Corsa", alimentazione: "gpl" }
   ];
 
+// Utilizzo filter per creare un nuovo array con le auto alimentate a benzina
+
 const autoBenzina = automobili.filter((auto) => {
     return auto.alimentazione === "benzina";
 });
 
 console.log(autoBenzina);
+
+// Utilizzo filter per creare un nuovo array con le auto alimentate a diesel
+
+const autoDiesel = automobili.filter((auto) => {
+    return auto.alimentazione === "diesel";
+});
+
+console.log(autoDiesel);
+
