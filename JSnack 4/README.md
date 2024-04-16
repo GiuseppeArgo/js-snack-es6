@@ -4,14 +4,14 @@ Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e 
 
 1. Input 
 
-- [ ] Creo un array di oggetti che rappresentano persone
+- [x] Creo un array di oggetti che rappresentano persone
 
 2. Logica
 
-- [ ] Con map creo una nuova array partendo dalla prima
+- [x] Con map creo una nuova array partendo dalla prima
         Se età >= 18 la persona potrà guidare
         Altrimenti la persona non potrà guidare
 
 3. Output
 
-- [ ] Stampo la nuova array in console
+- [x] Stampo la nuova array in console
