@@ -27,3 +27,11 @@ const autoDiesel = automobili.filter((auto) => {
 
 console.log(autoDiesel);
 
+// Utilizzo filter per creare un nuovo array con le altre auto
+
+const altreAuto = automobili.filter((auto) => {
+    return auto.alimentazione !== "benzina" && auto.alimentazione !== "diesel"
+});
+
+console.log(altreAuto);
+
