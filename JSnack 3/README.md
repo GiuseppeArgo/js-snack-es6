@@ -4,12 +4,12 @@ Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina
 
 1. Logica
 
-- [ ] Utilizzo il metodo filter sull'array automobili per creare un nuovo array con soltato le auto con alimentazione a benzina
+- [x] Utilizzo il metodo filter sull'array automobili per creare un nuovo array con soltato le auto con alimentazione a benzina
 
-- [ ] Utilizzo il metodo filter sull'array automobili per creare un nuovo array con soltato le auto con alimentazione a diesel
+- [x] Utilizzo il metodo filter sull'array automobili per creare un nuovo array con soltato le auto con alimentazione a diesel
 
-- [ ] Utilizzo il metodo filter sull'array automobili per creare un nuovo array con soltato le auto con alimentazione varia
+- [x] Utilizzo il metodo filter sull'array automobili per creare un nuovo array con soltato le auto con alimentazione varia
 
 2. Output 
 
-- [ ] Stampo le tre array in console
+- [x] Stampo le tre array in console
