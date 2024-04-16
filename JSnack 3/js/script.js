@@ -10,3 +10,9 @@ const automobili = [
     { marca: "Mercedes-Benz", modello: "EQC", alimentazione: "elettrico" },
     { marca: "Opel", modello: "Corsa", alimentazione: "gpl" }
   ];
+
+const autoBenzina = automobili.filter((auto) => {
+    return auto.alimentazione === "benzina";
+});
+
+console.log(autoBenzina);
